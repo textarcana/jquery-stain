@@ -10,6 +10,10 @@ Stain is a toolkit for rapid prototyping and experimentation in the browser.
 * `$.assert()` helps with testing assumptions
 * `$.tweak()` makes things draggable
 * `$([]).preload()` is an image preload script
+* `$.getPublicMethods()` dumps the top-level methods of an object
+
+And `console.js` makes it safe to reference the browser's console,
+even in browsers without native console support.
 
 #### CSS files
 
